@@ -1,0 +1,35 @@
+---
+layout: layouts/html.njk
+data: getYear
+templateClass: thankyou
+tags: thank
+pagination:
+  alias: page
+  data: active
+  size: 1
+eleventyExcludeFromCollections: true
+permalink: "{{ page.oSlug }}-{{ page.sSlug }}/thank-you/index.html"
+---
+<div class="full-width hero-container rm_margins" style="background-image: url(page.heroSrc);">
+  <div class="grid-row">
+    <div class="grid-col grid-2-3 hero-copy">
+      <h1>page.hero.title</h1>
+      <p>{page.hero.subtitle</p>
+      <div class="button-wrapper">
+        <div class="button"><span>Thank You</span></div>
+      </div>
+    </div>
+    <div class="grid-1-3"></div>
+  </div>
+</div>
+
+<div class="container-inner_col content-container">
+
+    <div class="grid-row main-container">
+      <div class="grid-1-1">
+        <h2>Thank You</h2>
+        <p>Thank you for contacting CAMPAIGN OWNER NAME. We've received your request. Our staff will respond within one business day.</p>
+      </div>
+    </div>
+
+</div>

@@ -1,2 +1,2 @@
-# campaign-pages
- Campaign Landing Pages - Supports system and acute care campaign landing pages
+# Campaign Landing Page Builder
+Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locations.

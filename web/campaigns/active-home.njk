@@ -1,0 +1,115 @@
+---
+layout: layouts/html.njk
+data: getYear
+templateClass: home
+tags: home
+pagination:
+  alias: page
+  data: active
+  size: 1
+eleventyExcludeFromCollections: true
+permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
+---
+<div class="full-width hero-container rm_margins" style="background-image: url(page.heroSrc);">
+  <div class="grid-row">
+    <div class="grid-col grid-2-3 hero-copy">
+      <h1> page.hero.title </h1>
+      <p> page.hero.subtitle </p>
+      <div class="button-wrapper">
+        <a class="button" href="#form"><span>Get Started Now</span></a>
+      </div>
+    </div>
+    <div class="grid-1-3"></div>
+  </div>
+</div>
+
+<div class="container-inner_col content-container">
+
+    <div class="grid-row main-container">
+      <div class="grid-1-1">
+        <p>page.main | markdownify | safe</p>
+      </div>
+    </div>
+
+    <!-- formcarry form -->
+
+    <div id="form" class="grid-row form-container">
+      <div class="grid-1-1">
+          <div class="form-wrapper">
+            <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:page.contact.phone">page.contact.phone</a>.
+            <form action="https://formcarry.com/s/gSD-bZ_eB_O" method="POST" accept-charset="UTF-8" >
+              <p>
+                <label>First Name:<br>
+                <input type="text" name="firstName" required /></label>   
+              </p>
+              <p>
+                <label>Last Name:<br>
+                <input type="text" name="lastName" required /></label>   
+              </p>
+              <p>
+                <label>Phone Number:<br>
+                <input type="tel" name="phone" required /></label>
+              </p>
+              <p>
+                <label>Email Address:<br>
+                <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>
+                  How would you like to be contacted?<br>
+                  <input type="radio" name="followup" value="email" required> Email<br>
+                  <input type="radio" name="followup" value="call" checked> Phone Call<br>
+                </label>
+              </p>
+              <p>
+                <label><input type="checkbox" name="subscribe" value="yes" checked> Please send me updates from page.owner</label>
+              </p>
+              <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
+              <input type="hidden" name="source, https://domain-name.com/page.links.local-slug "><!-- use this to prevent spam -->
+              <p>
+                <button type="submit">Request Appointment</button>
+              </p>
+            </form>
+          </div>
+      </div>
+    </div>
+
+    <!-- END formcarry form -->
+
+    <div class="grid-row teasers-container">
+      {% if page.t03 | length > 0 %}
+        <div class="teaser-col grid-1-3">
+          <p>page.t01 | markdownify | safe</p>
+        </div>
+        <div class="teaser-col grid-1-3">
+          <p>page.t02 | markdownify | safe</p>
+        </div>
+        <div class="teaser-col grid-1-3">
+          <p>page.t03 | markdownify | safe</p>
+        </div>
+      {% else %}
+        <div class="teaser-col grid-1-2">
+          <p>page.t01 | markdownify | safe</p>
+        </div>
+        <div class="teaser-col grid-1-2">
+          <p>page.t02 | markdownify | safe</p>
+        </div>
+      {% endif %}
+    </div>
+
+</div>
+
+<div class="full-width awards-container">
+  <div class="container-inner_col awards-wrapper">
+
+  {% for award in page.awards %}
+    <div class="grid-row award awardname">
+      <div class="grid-2-5 awarded-by">
+        <h4>{{ award.text }}</h4>
+        <p>{{ award.subtext }}</p>
+      </div>
+    </div>
+   {% endfor %}
+ 
+  </div>
+</div>

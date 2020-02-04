@@ -1,0 +1,458 @@
+/*
+ * Body Styles
+ */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Quicksand", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+    color: #144b86;
+}
+h1,
+.hero-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.15;
+}
+h2,
+.top-copy h2,
+.location-addr h2 {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-top: 0;
+}
+h3,
+.content-container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+}
+body p {
+    color: #363636;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+body footer p {
+    font-size: .75rem;
+    line-height: .9375rem;
+}
+
+/*
+* Header Styles
+*/
+header .grid-row {
+    padding: 20px 0;
+    height: 145px;
+}
+header [class^="grid-"] {
+    align-items: center;
+}
+.header-logo {
+    width: 300px;
+    height: auto;
+}
+.header-tagline {
+    font-size: 24px;
+    color: rgb(110, 109, 109);
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+}
+header a.phone {
+    color: #144b86;
+    font-size: 35px;
+    line-height: 1.0;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+header a.phone:hover{
+    text-decoration: underline;
+}
+  
+/*
+ * Page Content Containers
+ */
+.home,
+.thankyou {
+    padding: 0;
+}
+.content-container {
+    padding: 45px 0;
+}
+.main-container,
+.form-container {
+    margin-bottom: 45px;
+}
+  
+/*
+ * Hero Styles
+ */
+.hero-container {
+    background-color: rgba(255,255,255,0);
+    background-position: right top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+.hero-container .grid-row [class^="grid-"]:first-of-type h1,
+.hero-container .grid-row [class^="grid-"]:first-of-type p  {
+    color: #ffffff;
+    text-align: center;
+}
+.hero-container .grid-row [class^="grid-"]:first-of-type h1 {
+    width: 700px;
+    margin: 20px auto 10px;
+}
+.hero-container .grid-row [class^="grid-"]:first-of-type p {
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 450px;
+    margin: 10px auto 20px;
+}
+.hero-container .button-wrapper {
+    margin: 20px auto 45px;
+}
+.hero-container a.button {
+    padding: 18px 30px 15px;
+    border-radius: 2px;
+    background-color: #144b86;
+    text-align: center;
+    text-decoration: none;
+}
+.hero-container a.button:hover {
+    background-color: #0d325a;
+}
+.hero-container a.button span {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+  
+/*
+ * Main Styles
+ */
+  
+/*
+ * Form Styles
+ */
+.form-container {
+    background-color: rgba(20, 75, 134, 0.85);
+    border-radius: 3px;
+}
+.form-wrapper {
+    padding: 20px 45px;
+}
+.form-container form {
+    margin-bottom: 35px;
+}
+.form-wrapper h3 {
+    color:#ffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin: 20px 0;
+}
+.form-wrapper p.instructions {
+    margin: 20px 0 30px;
+}
+.form-wrapper p,
+.form-wrapper label:not(.form-grp-hdr) {
+    color:#ffff;
+    margin: 10px 0;
+}
+.form-wrapper a {
+    color: #fff;
+    text-decoration: none;
+}
+.form-wrapper a:hover {
+    color: rgb(203, 221, 255);
+    text-decoration: underline;
+}
+._form-content ._form_element {
+    margin-bottom: 20px;
+}
+.form-wrapper .form-grp-hdr {
+    display:block;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color:#ffff;
+    margin-bottom:15px;
+} 
+.form-wrapper input[type=text],
+.form-wrapper input[type=email],
+.form-wrapper input[type=tel],
+.form-wrapper button[type=submit] {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-transform: inherit;
+    border-radius: 3px;
+}
+.form-wrapper input[type=text]:focus,
+.form-wrapper input[type=email]:focus,
+.form-wrapper input[type=tel]:focus {
+    border: 1px solid #144b86;
+}
+.form-wrapper ._form-content ._checkbox-radio input,
+.form-wrapper input[type=radio],
+.form-wrapper input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ffffff;
+}
+.form-wrapper input[type=radio]:focus,
+.form-wrapper input[type=checkbox]:focus {
+    border: 1px solid #144b86;
+}
+.form-wrapper ._form-content button,
+.form-wrapper button[type=submit] {
+    background: #1091cc;
+    color: #ffffff;
+    border: 1px solid #1091cc;
+}
+.form-wrapper ._form-content button:hover,
+.form-wrapper ._form-content button:focus,
+.form-wrapper button[type=submit]:hover,
+.form-wrapper button[type=submit]:focus {
+    cursor: pointer;
+    background: #144b86;
+    color: #ffffff;
+    border: 1px solid #144b86;
+}
+
+/*
+* Teaser Styles
+*/
+.teasers-container { padding-top: 0; }
+.teasers-container .teaser-col.grid-1-2 {
+    width: calc(50%);
+}
+.teasers-container .teaser-col.grid-1-3 {
+    width: calc(33.333%);
+}
+/* .teaser-col {
+margin: 0 20px;
+} */
+/* .teaser-col:first-of-type {
+margin-left: 0;
+margin-right: 20px;
+}
+.teaser-col:last-of-type{
+margin-left: 20px;
+margin-right: 0;
+} */
+.teaser-col p {
+padding: 0 20px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+.teaser-col h3 {
+padding: 0 20px;
+}
+.teaser-col img {
+width: 100%;
+height: auto;
+}
+  
+/*
+ * Awards Styles
+ */
+
+ /* .awards-container { 
+    margin-bottom: 45px;
+} */
+/* .award-wrapper { */
+.awards-container {
+    background-color: #f7f7f7;
+    margin: 0;
+}
+.award {
+    padding: 0 20px;
+    margin: 0 0 20px;
+}
+.award:last-of-type {
+    margin-bottom: 0;
+}
+.awarded-by-seal,
+.awarded-by {
+    display: flex;
+}
+.awarded-by {
+    flex-direction: column;
+}
+.award,
+.awarded-by-seal,
+.awarded-by {
+    justify-content: center;
+    align-items: center;
+}
+.awarded-by h4 {
+    font-size: 42px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+    margin: 20px 0 5px;
+}
+.awarded-by p {
+    color: rgb(77, 77, 77);
+    margin: 5px 0 20px;
+}
+/*
+ * CTA Band Styles
+ */
+.cta-band_call {
+    background-color: #1091cc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.cta-band_call [class^="grid-"] {
+    justify-content: center;
+}
+.cta-band_call h3 {
+    font-size: 42px;
+    color: #fff;
+    margin: 20px 0;
+}
+.cta-band_call a {
+    color: #fff;
+    text-decoration: none;
+}
+.cta-band_call a:hover {
+    color: rgb(203, 221, 255);
+    text-decoration: underline;
+}
+  
+/*
+ * Location Styles
+ */
+.location-container {
+    padding: 0 20px;   
+}
+.location-addr p {
+    line-height: 1.15;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.location-map iframe {
+    width: 786px;
+    height: 386px;
+    border:0;
+}
+  
+/*
+ * Footer Styles
+ */
+footer.full-width {
+    padding: 45px 0;
+    margin-bottom: 0;
+}
+footer img { margin-top: 12px; }
+footer p.copyright {
+    margin-top: 65px;
+}
+
+/* COLOR THEMES
+ * ============
+ * Custom Colors for Individual Locations and System Pages
+ */
+ /* DEFAULT */
+footer,
+[class^="tmc-"] footer { background-color: #0d325a; }
+footer p,
+[class^="tmc-"] footer p { color:#ffffff; }
+
+
+ /* INDIVIDUAL LOCATIONS */
+/* Aiken Regional Medical Centers
+ * ---------
+ * armc 
+ */
+[class^="armc-"] footer { background-color: #3c475a; }
+[class^="armc-"] footer p { color:rgba(255, 255, 255, 0.6); }
+/* Corona Regional Medical Center
+ * ---------
+ * crmc
+ */
+/* Doctors Hospital of Laredo
+ * -----------
+ * dhl
+ */
+/* Fort Duncan Regional Medical Center
+ * ---------
+ * fdmc
+ */ 
+/* George Washington University Hospital, The
+ * ---------
+ * gwuh
+ */
+/* Lakewood Ranch Medical Center
+ * ------------
+ * lrmc
+ */ 
+/* Northern Nevada Medical Center
+ * -------------
+ * nnmc
+ */
+/* Palmdale Regional Medical Center
+ * -----------
+ * prmc
+ */
+/* St. Mary's Regional Medical Center
+ * -----------
+ * stm
+ */ 
+/* Temecula Valley Hospital
+ * ---------
+ * tvh
+ */
+/* Texoma Medical Center
+ * ---------
+ * tmc
+ */
+[class^="tmc-"] footer { background-color: #0d325a; }
+[class^="tmc-"] footer p { color:#ffffff; } 
+/* Wellington Regional Medical Center
+ * -----------
+ * wrmc
+ */
+
+ /* SYSTEMS */
+/* Manatee Healthcare System
+ * ------------
+ * mhs
+ */
+/* Northwest Texas Healthcare System
+ * ----------
+ * nwths
+ */
+/* South Texas Health System
+ * ---------
+ * stxs
+ */
+/* Southwest Healthcare System
+ * ------------
+ * swhs
+ */
+/* Valley Health System, The
+ * ----------
+ * vhs
+ */ 
+
