@@ -1,6 +1,6 @@
 export default {
-    name: 'contact',
-    title: 'Contact',
+    name: 'location',
+    title: 'Location',
     type: 'document',
     description: `Location Name, Street Number & Name, Street optional, City Name, State, Zip, Phone, Email`,
     fields: [
@@ -30,22 +30,8 @@ export default {
             type: 'string'
         },
         {
-            name: 'phone',
-            type: 'string'
-        },
-        {
-            name: 'email',
-            type: 'string'
-        },
-        {
-            name: 'website',
+            name: 'link',
             type: 'url'
-        },
-        {
-            name: 'map',
-            title: 'Map <iframe> Source',
-            type: 'string',
-            description: `Google 'Embed a map', <iframe src="=> this string <="></iframe>`
         }
     ]
 }

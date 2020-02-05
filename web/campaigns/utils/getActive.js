@@ -24,9 +24,10 @@ async function getActive() {
     tel,
     main,
     awards,
+    map,
+    locations[]->,
     "owner": owner-> {
       ...,
-      contact[]->,
       "logo": logo {
         ...,
         asset->
