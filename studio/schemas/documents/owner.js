@@ -1,5 +1,3 @@
-import contact from "./contact";
-
 export default {
     name: 'owner',
     title: 'Owner',
@@ -16,18 +14,6 @@ export default {
             name: 'code',
             type: 'slug',
             description: `Facility or System Code, initals`
-        },
-        {
-            title: 'Contact',
-            name: 'contact',
-            type: 'array',
-            of: [{
-                weak: true,
-                type: 'reference',
-                to: {
-                    type: 'contact'
-                }
-            }]
         },
         {
             name: 'logo',

@@ -42,8 +42,26 @@ export default {
             title: 'Awards',
             name: 'awards',
             type: 'array',
-            of: [{ type: 'award' }]
-        }
+            of: [{ weak: true, type: 'award' }]
+        },
+        {
+            name: 'map',
+            title: 'Map <iframe> Source',
+            type: 'string',
+            description: `Google 'Embed a map', <iframe src="=> this string <="></iframe>`
+        },
+        {
+            title: 'Locations',
+            name: 'locations',
+            type: 'array',
+            of: [{
+                weak: true,
+                type: 'reference',
+                to: {
+                    type: 'location'
+                }
+            }]
+        },
     ],
     preview: {
         select: {
