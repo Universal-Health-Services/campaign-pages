@@ -1,7 +1,3 @@
-working on contactReference
-[example](https://github.com/kmelve/eleventy-sanity-blog-boilerplate/blob/master/web/utils/getPosts.js)
-[docs](https://www.sanity.io/docs/groq-joins)
-
 # Campaign Landing Page Builder
 Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locations.
 
@@ -32,8 +28,9 @@ Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locatio
 Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
 #### General Notes & Resources :
-CLI [docs](https://www.sanity.io/docs/cli)
+The Vision Plugin, quickly test your GROQ queries using this studio plugin [deatils](https://www.sanity.io/docs/the-vision-plugin "Vision Sanity Plugin")
 
+Command Line Interface, CLI [docs](https://www.sanity.io/docs/cli)
 from within the `studio` directory:
 **compile** code, $`sanity build`
 **run** local, $`sanity start`
@@ -90,7 +87,7 @@ all info from the form fields.
 ### Google Tag Manager
 #### General Notes & Resources :
 
-### Search Engings 
+### Search Engines 
 #### General Notes & Resources :
 
 ### UX, Design & Layout
@@ -111,7 +108,6 @@ from [example](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
 #### Geo Points
 Future addition
 [documentation](https://www.sanity.io/docs/geopoint-type)
-
 
 ## Campaigns 2020
 ----

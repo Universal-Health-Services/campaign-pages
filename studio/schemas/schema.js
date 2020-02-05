@@ -9,12 +9,12 @@ import analytics from './documents/analytics'
 import award from './documents/award'
 import campaign from './documents/campaign'
 import contact from './documents/contact'
+import main from './documents/main'
 import owner from './documents/owner'
 import service from './documents/service'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
-import contactReference from './objects/contactReference'
 import mainImage from './objects/mainImage'
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -30,10 +30,10 @@ export default createSchema({
     award,
     campaign,
     contact,
+    main,
     owner,
     service,
     bodyPortableText,
-    contactReference,
-    mainImage
+    mainImage,
   ])
 })

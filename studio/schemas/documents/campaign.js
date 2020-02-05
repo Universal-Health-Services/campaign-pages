@@ -34,6 +34,11 @@ export default {
             description: `Campaign telephone number, tracked`
         },
         {
+            name: 'main',
+            title: 'Main Copy',
+            type: 'main'
+        },
+        {
             title: 'Awards',
             name: 'awards',
             type: 'array',

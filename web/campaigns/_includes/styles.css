@@ -32,6 +32,16 @@ h3,
     margin-bottom: 20px;
     line-height: 1.5rem;
 }
+h4,
+.content-container h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.25rem;
+}
 body p {
     color: #363636;
     font-size: 1.5rem;
@@ -302,15 +312,21 @@ height: auto;
     justify-content: center;
     align-items: center;
 }
-.awarded-by h4 {
+.awarded-by h4.award-text {
     font-size: 42px;
     font-weight: 400;
     color: rgb(77, 77, 77);
     margin: 20px 0 5px;
 }
-.awarded-by p {
+.awarded-by h4.award-text_no-subtext {
+    font-size: 42px;
+    font-weight: 400;
     color: rgb(77, 77, 77);
-    margin: 5px 0 20px;
+    margin: 20px 0 20px;
+}
+.awarded-by p.award-subtext {
+    color: rgb(77, 77, 77);
+    margin: 5px 0 5px;
 }
 /*
  * CTA Band Styles
@@ -344,7 +360,11 @@ height: auto;
  * Location Styles
  */
 .location-container {
-    padding: 0 20px;   
+    padding: 0 20px;
+    margin-bottom: 30px;  
+}
+.location-container:last-of-type {
+    margin-bottom: 0;
 }
 .location-addr p {
     line-height: 1.15;

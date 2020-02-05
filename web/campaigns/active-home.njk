@@ -27,7 +27,7 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
     <div class="grid-row main-container">
       <div class="grid-1-1">
-        <p>page.main | markdownify | safe</p>
+        {{ page.main | markdownify | safe }}
       </div>
     </div>
 
@@ -36,7 +36,7 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
     <div id="form" class="grid-row form-container">
       <div class="grid-1-1">
           <div class="form-wrapper">
-            <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:page.contact.phone">page.contact.phone</a>.
+            <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:{{ page.tel }}">{{ page.tel }}</a>.
             <form action="https://formcarry.com/s/gSD-bZ_eB_O" method="POST" accept-charset="UTF-8" >
               <p>
                 <label>First Name:<br>
@@ -104,9 +104,13 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
   {% for award in page.awards %}
     <div class="grid-row award awardname">
-      <div class="grid-2-5 awarded-by">
-        <h4>{{ award.text }}</h4>
-        <p>{{ award.subtext }}</p>
+      <div class="grid-1-1 awarded-by">
+        {% if award.subtext %}
+        <h4 class="award-text">{{ award.text }}</h4>
+        <p class="award-subtext">{{ award.subtext }}</p>
+        {% else %}
+        <h4 class="award-text_no-subtext">{{ award.text }}</h4>
+        {% endif %}
       </div>
     </div>
    {% endfor %}
