@@ -48,7 +48,7 @@ Eleventy is a simpler static site generator.
 CLI [docs](https://www.11ty.dev/docs/usage/)
 
 from within the `web` directory:
-**compile**, $`npx @11ty/eleventy`
+**compile**, `
 **compile & Serve**, $`npx @11ty/eleventy --serve`
 
 _local preview:_
@@ -120,6 +120,7 @@ Location Name, code (is SYSTEM Flag) link
 - Fort Duncan Regional Medical Center, **fdmc** [www](https://www.fortduncanmedicalcenter.com/ "Fort Duncan Regional Medical Center, website")
 - The George Washington University Hospital, **gwuh** [www](https://www.gwhospital.com/ "The George Washington University Hospital, website")
 - Lakewood Ranch Medical Center, **lrmc** [www](https://www.lakewoodranchmedicalcenter.com/ "Lakewood Ranch Medical Center, website")
+- Manatee Memorial Hospital, **mmh** [www](https://www.manateememorial.com/ "Manatee Memorial Hospital, website")
 - Northern Nevada Medical Center, **nnmc** [www](https://www.nnmc.com/ "Northern Nevada Medical Center, website")
 - Texoma Medical Center, **tmc** [www](https://www.texomamedicalcenter.net/ "Texoma Medical Center, website")
 - Temecula Valley Hospital, **tvh** [www](https://www.temeculavalleyhospital.com/ "Temecula Valley Hospital, website")

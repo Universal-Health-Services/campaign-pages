@@ -8,10 +8,12 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import analytics from './documents/analytics'
 import award from './documents/award'
 import campaign from './documents/campaign'
+import hero from './documents/hero'
 import location from './documents/location'
 import main from './documents/main'
 import owner from './documents/owner'
 import service from './documents/service'
+import teaser from './documents/teaser'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -29,10 +31,12 @@ export default createSchema({
     analytics,
     award,
     campaign,
+    hero,
     location,
     main,
     owner,
     service,
+    teaser,
     bodyPortableText,
     mainImage,
   ])

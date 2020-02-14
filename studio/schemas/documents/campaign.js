@@ -22,6 +22,11 @@ export default {
             }
         },
         {
+            name: 'analytics',
+            title: 'Analytics',
+            type: 'analytics'
+        },
+        {
             name: 'description',
             type: 'string',
             title: 'Description',
@@ -34,9 +39,20 @@ export default {
             description: `Campaign telephone number, tracked`
         },
         {
+            name: 'hero',
+            title: 'Hero',
+            type: 'hero'
+        },
+        {
             name: 'main',
             title: 'Main Copy',
             type: 'main'
+        },
+        {
+            title: 'Teasers',
+            name: 'teasers',
+            type: 'array',
+            of: [{ weak: true, type: 'teaser' }]
         },
         {
             title: 'Awards',

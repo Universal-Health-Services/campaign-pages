@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 h1, h2, h3, h4, h5, h6 {
     font-style: normal;
-    color: #144b86;
+    /* color: #144b86; */
 }
 h1,
 .hero-container h1 {
@@ -251,10 +251,10 @@ header a.phone:hover{
 */
 .teasers-container { padding-top: 0; }
 .teasers-container .teaser-col.grid-1-2 {
-    width: calc(50%);
+    width: calc(50% - 20px);
 }
 .teasers-container .teaser-col.grid-1-3 {
-    width: calc(33.333%);
+    width: calc(33.333% - 20px);
 }
 /* .teaser-col {
 margin: 0 20px;
@@ -267,18 +267,33 @@ margin-right: 20px;
 margin-left: 20px;
 margin-right: 0;
 } */
-.teaser-col p {
-padding: 0 20px;
-margin-top: 0;
-margin-bottom: 20px;
+.teaser-col:first-of-type { padding: 0 20px 0 0; }
+.teaser-col { flex: 1 0 auto; padding: 0 10px; }
+.teaser-col:last-of-type { padding: 0 0 0 20px; }
+
+
+/*.teaser-col:first-of-type img {
+    margin: 0 20px 20px 0; 
+}*/
+.teaser-col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 .teaser-col h3 {
-padding: 0 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
-.teaser-col img {
-width: 100%;
-height: auto;
+.teaser-col p {
+    padding: 0 20px;
+    margin-top: 0;
+    margin-bottom: auto;
 }
+.teaser-col ul {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
   
 /*
  * Awards Styles
@@ -358,6 +373,10 @@ height: auto;
 /*
  * Location Styles
  */
+.location-map,
+.location-addr {
+    margin-bottom: 40px;
+}
 .locations-container {
     padding: 0;
     margin-bottom: 30px;  
@@ -365,6 +384,7 @@ height: auto;
 /*.locations-container:last-of-type {
     margin-bottom: 0;
 } */
+
 .locations-container.grid-row>[class^="grid-"]:only-child>*:not([class^="grid-"]),
 .location-addr h4,
 .location-addr p {
@@ -405,19 +425,33 @@ footer p.copyright {
  * Custom Colors for Individual Locations and System Pages
  */
  /* DEFAULT */
+h1, h2, h3, h4, h5, h6,
+.hero-container .grid-row [class^=grid-]:first-of-type h1,
+.hero-container .grid-row [class^=grid-]:first-of-type p {
+    color: #0d325a;
+}
 footer,
-[class^="tmc-"] footer { background-color: #0d325a; }
+footer { background-color: #0d325a; }
 footer p,
-[class^="tmc-"] footer p { color:#ffffff; }
-
+footer p { color:#ffffff; }
 
  /* INDIVIDUAL LOCATIONS */
 /* Aiken Regional Medical Centers
  * ---------
  * armc 
  */
-[class^="armc-"] footer { background-color: #3c475a; }
-[class^="armc-"] footer p { color:rgba(255, 255, 255, 0.6); }
+body[class*=armc] h1,
+body[class*=armc] h2,
+body[class*=armc] h3,
+body[class*=armc] h4,
+body[class*=armc] h5,
+body[class*=armc] h6,
+body[class*=armc] .hero-container .grid-row [class^=grid-]:first-of-type h1,
+body[class*=armc] .hero-container .grid-row [class^=grid-]:first-of-type p {
+    color: #3c475a;
+}
+body[class*=armc] footer { background-color: #3c475a; }
+body[class*=armc] footer p { color:rgba(255, 255, 255, 0.6); }
 /* Corona Regional Medical Center
  * ---------
  * crmc
@@ -458,8 +492,6 @@ footer p,
  * ---------
  * tmc
  */
-[class^="tmc-"] footer { background-color: #0d325a; }
-[class^="tmc-"] footer p { color:#ffffff; } 
 /* Wellington Regional Medical Center
  * -----------
  * wrmc

@@ -11,16 +11,23 @@ export default {
             options: {
                 maxLength: 20
             }
+        },
+        {
+            name: 'formAction',
+            type: 'url',
+            title: 'Form Action, URL',
+            description: `url to pass form submissions <form action=" ~here~ "... >`
         }
     ],
     preview: {
         select: {
-            tm: 'tmId'
+            tm: 'tmId',
+            fa: 'formAction'
         },
-        prepare({ title='Tag Manager Information', tm }) {
+        prepare({ tm, fa }) {
             return {
-                title,
-                subtitle: tm
+                title: tm,
+                subtitle: fa
             }
         }
     }
