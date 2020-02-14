@@ -1,7 +1,7 @@
 # Campaign Landing Page Builder
 Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locations.
 
-note: Georgia
+note: Georgia - second note
 
 ## Each Campaign :
 ----
