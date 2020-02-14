@@ -1,6 +1,8 @@
 # Campaign Landing Page Builder
 Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locations.
 
+note: Georgia
+
 ## Each Campaign :
 ----
 1. Reference [Landing Page](https://tmc-women.com/)
