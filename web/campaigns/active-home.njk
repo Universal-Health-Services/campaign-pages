@@ -27,12 +27,6 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
 <div class="container-inner_col content-container">
 
-    <div class="grid-row main-container">
-      <div class="grid-1-1">
-        {{ page.main | markdownify | safe }}
-      </div>
-    </div>
-
     <div class="col-section">
 
     <div class="col">
@@ -43,24 +37,16 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
     <div id="form" class="col form-container">
           <div class="form-wrapper">
+          <h3>Get Comprehensive Care at __</h3>
             <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:{{ page.tel }}">{{ page.tel }}</a>.
             <form action="{{ page.analytics.formAction | url }}" method="POST" accept-charset="UTF-8" >
-              <p>
-                <label>First Name:<br>
-                <input type="text" name="firstName" required /></label>   
-              </p>
-              <p>
-                <label>Last Name:<br>
-                <input type="text" name="lastName" required /></label>   
-              </p>
-              <p>
-                <label>Phone Number:<br>
-                <input type="tel" name="phone" required /></label>
-              </p>
-              <p>
-                <label>Email Address:<br>
-                <input type="email" name="email" /></label>
-              </p>
+              <div class="form-row">
+                <input type="text" name="firstName" placeholder="First Name" required /> <input type="text" name="lastName" placeholder="Last Name" required />  
+               </div>
+              <div class="form-row">
+                <input type="tel" name="phone" placeholder="Phone Number" required />
+                <input type="email" name="email" placeholder="Email Address" />
+              </div>
               <p>
                 <label>
                   How would you like to be contacted?<br>
