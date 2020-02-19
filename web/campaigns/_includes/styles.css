@@ -58,7 +58,7 @@ body footer p {
 */
 header .grid-row {
     padding: 20px 0;
-    height: 145px;
+    height: 65px;
 }
 header [class^="grid-"] {
     align-items: center;
