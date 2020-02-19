@@ -181,17 +181,17 @@ header a.phone:hover{
 }
 
 .form-wrapper {
-    padding: 20px;
+    padding: 10px;
 }
 .form-container form {
     margin-bottom: 35px;
 }
-.form-wrapper h3 {
+#form h3 {
     color:#ffff;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.25em;
-    margin: 20px 0;
+    margin: 0;
 }
 
 .form-row {
@@ -203,6 +203,8 @@ header a.phone:hover{
 
 .form-wrapper p.instructions {
     margin: 20px 0;
+    font-size:1rem;
+    line-height:1.2rem;
 }
 .form-wrapper p,
 .form-wrapper label:not(.form-grp-hdr) {
@@ -339,6 +341,7 @@ margin-right: 0;
 .teaser-col ul {
     margin-top: auto;
     margin-bottom: 0;
+    color:#747474;
 }
 
   
@@ -398,12 +401,12 @@ margin-right: 0;
     background-position: center center;
     background-repeat: no-repeat;
     padding: 30px 0;
-    margin: 40px 0;
+    margin:0 0 40px 0;
 }
 .cta-band_call [class^="grid-"] {
     justify-content: center;
 }
-.cta-band_call h3 {
+.cta-band_call .grid-row h3 {
     font-size: 42px;
     color: #fff;
     margin: 20px 0;
