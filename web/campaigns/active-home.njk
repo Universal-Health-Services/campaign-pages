@@ -33,10 +33,15 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
       </div>
     </div>
 
+    <div class="col-section">
+
+    <div class="col">
+    {{ page.main | markdownify | safe }}
+    </div>
+
     <!-- formcarry form -->
 
-    <div id="form" class="grid-row form-container">
-      <div class="grid-1-1">
+    <div id="form" class="col form-container">
           <div class="form-wrapper">
             <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:{{ page.tel }}">{{ page.tel }}</a>.
             <form action="{{ page.analytics.formAction | url }}" method="POST" accept-charset="UTF-8" >
@@ -74,10 +79,12 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
               </p>
             </form>
           </div>
-      </div>
     </div>
 
     <!-- END formcarry form -->
+
+    </div>
+
     <div class="grid-row teasers-container">
     {% for teaser in page.teasers %}
       <div class="teaser-col grid-1-3">

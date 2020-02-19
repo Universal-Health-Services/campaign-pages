@@ -100,6 +100,21 @@ header a.phone:hover{
 .form-container {
     margin-bottom: 45px;
 }
+
+ .col-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+ .col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+ }
+
   
 /*
  * Hero Styles
@@ -158,10 +173,12 @@ header a.phone:hover{
 /*
  * Form Styles
  */
+
 .form-container {
     background-color: rgba(20, 75, 134, 0.85);
     border-radius: 3px;
 }
+
 .form-wrapper {
     padding: 20px 45px;
 }
