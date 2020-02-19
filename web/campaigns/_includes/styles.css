@@ -2,9 +2,9 @@
  * Body Styles
  */
 body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Avenir", sans-serif;
 }
-/*test comment from Georgia */
+
 h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     /* color: #144b86; */
@@ -44,9 +44,9 @@ h4,
     line-height: 1.25rem;
 }
 body p {
-    color: #363636;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    color: #747474;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
 }
 body footer p {
     font-size: .75rem;
@@ -58,7 +58,7 @@ body footer p {
 */
 header .grid-row {
     padding: 20px 0;
-    height: 145px;
+    height: 65px;
 }
 header [class^="grid-"] {
     align-items: center;
@@ -100,6 +100,22 @@ header a.phone:hover{
 .form-container {
     margin-bottom: 45px;
 }
+
+ .col-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+ .col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding:2%;
+ }
+
   
 /*
  * Hero Styles
@@ -158,12 +174,14 @@ header a.phone:hover{
 /*
  * Form Styles
  */
+
 .form-container {
     background-color: rgba(20, 75, 134, 0.85);
     border-radius: 3px;
 }
+
 .form-wrapper {
-    padding: 20px 45px;
+    padding: 20px;
 }
 .form-container form {
     margin-bottom: 35px;
@@ -175,14 +193,23 @@ header a.phone:hover{
     line-height: 1.25em;
     margin: 20px 0;
 }
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .form-wrapper p.instructions {
-    margin: 20px 0 30px;
+    margin: 20px 0;
 }
 .form-wrapper p,
 .form-wrapper label:not(.form-grp-hdr) {
     color:#ffff;
     margin: 10px 0;
 }
+
 .form-wrapper a {
     color: #fff;
     text-decoration: none;
@@ -203,7 +230,23 @@ header a.phone:hover{
 } 
 .form-wrapper input[type=text],
 .form-wrapper input[type=email],
-.form-wrapper input[type=tel],
+.form-wrapper input[type=tel] {
+    width: 45%;
+    padding: 8px 16px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-transform: inherit;
+    border-radius: 3px;
+}
+
+label {
+    font-size:1rem;
+    line-height:1.2rem;
+}
+
 .form-wrapper button[type=submit] {
     width: 100%;
     padding: 8px 16px;
@@ -215,6 +258,7 @@ header a.phone:hover{
     text-transform: inherit;
     border-radius: 3px;
 }
+
 .form-wrapper input[type=text]:focus,
 .form-wrapper input[type=email]:focus,
 .form-wrapper input[type=tel]:focus {
@@ -231,12 +275,14 @@ header a.phone:hover{
 .form-wrapper input[type=checkbox]:focus {
     border: 1px solid #144b86;
 }
+
 .form-wrapper ._form-content button,
 .form-wrapper button[type=submit] {
     background: #1091cc;
     color: #ffffff;
     border: 1px solid #1091cc;
 }
+
 .form-wrapper ._form-content button:hover,
 .form-wrapper ._form-content button:focus,
 .form-wrapper button[type=submit]:hover,
