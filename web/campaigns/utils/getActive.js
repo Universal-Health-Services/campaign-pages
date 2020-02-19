@@ -11,7 +11,7 @@ function generate(ea) {
 
   return {
     ...ea,
-    main: BlocksToMarkdown(ea.main.body, { serializers, ...client.config() })
+    main: BlocksToMarkdown(ea.main.body, { serializers, ...client.config() }),
     // teaser: ea.teasers.forEach((tease) => {
     //   BlocksToMarkdown(tease.body, { serializers, ...client.config() })
     //   //console.log(`Teaser: `+tease.body)
@@ -28,7 +28,7 @@ function generate(ea) {
     //t01: BlocksToMarkdown(ea.teasers[0], { serializers, ...client.config() }),
     //t02: BlocksToMarkdown(ea.teasers[1], { serializers, ...client.config() }),
     //t03: BlocksToMarkdown(ea.teasers[2], { serializers, ...client.config() })
-    // thankyou: BlocksToMarkdown(ea.thankyou.body, { serializers, ...client.config() })
+    thankyou: BlocksToMarkdown(ea.thankyou.body, { serializers, ...client.config() })
   }
 }
 
@@ -71,7 +71,8 @@ async function getActive() {
         asset->
       }
     },
-    "serviceline": serviceline->name
+    "serviceline": serviceline->name,
+    thankyou
   }`
   const order=`| order(schedual.startDate asc)`
   const query=[filter, projection, order].join(' ')
