@@ -183,9 +183,9 @@ header a.phone:hover{
 .form-wrapper {
     padding: 10px;
 }
-.form-container form {
+/* .form-container form {
     margin-bottom: 35px;
-}
+}*/
 #form h3 {
     color:#ffff;
     font-size: 1.5rem;
@@ -317,7 +317,7 @@ margin-left: 20px;
 margin-right: 0;
 } */
 .teaser-col:first-of-type { padding: 0 20px 0 0; }
-.teaser-col { flex: 1 0 auto; padding: 0 10px; }
+.teaser-col { flex: 1 0 auto; justify-content: center; padding: 0 10px; }
 .teaser-col:last-of-type { padding: 0 0 0 20px; }
 
 
@@ -335,8 +335,10 @@ margin-right: 0;
 }
 .teaser-col p {
     padding: 0 20px;
-    margin-top: 0;
-    margin-bottom: auto;
+    margin: 0;
+}
+.teaser-col p:last-of-type {
+    margin-bottom: 10px;
 }
 .teaser-col ul {
     margin-top: auto;

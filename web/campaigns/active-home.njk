@@ -76,7 +76,7 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
       <div class="teaser-col grid-1-3">
         <img src="{{ teaser.image.src | url }}" alt="src="{{ teaser.image.alt }}">
         <h3>{{ teaser.title }}</h3>
-        <p></p>
+        <p>{{ teaser.body | markdownify | safe }}</p>
         <ul>
           {% for term in teaser.terms %}
           <li>{{ term }}</li>
