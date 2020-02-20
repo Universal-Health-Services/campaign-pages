@@ -184,7 +184,7 @@ header a.phone:hover{
     padding: 10px;
 }
 .form-container form {
-    margin-bottom: 35px;
+    margin-bottom: 5px;
 }
 #form h3 {
     color:#ffff;
@@ -332,6 +332,7 @@ margin-right: 0;
 .teaser-col h3 {
     padding: 0 20px;
     margin-bottom: 20px;
+    font-weight:600;
 }
 .teaser-col p {
     padding: 0 20px;
@@ -356,10 +357,11 @@ margin-right: 0;
 .awards-container {
     background-color: #f7f7f7;
     margin: 0;
+    padding:30px;
 }
 .award {
     padding: 0 20px;
-    margin: 0 0 20px;
+    margin: 0 0 30px;
 }
 .award:last-of-type {
     margin-bottom: 0;
@@ -441,8 +443,16 @@ margin-right: 0;
     padding: 0;
     margin: 0 0 20px;
 }
+
+.location-addr h4 {
+    font-weight:600;
+    font-size:22px;
+}
+
 .location-addr p {
     line-height: 1.15;
+    font-weight:400;
+    font-size:20px;
     /* margin-top: 0; */
     /* margin-bottom: 20px; */
 } 
