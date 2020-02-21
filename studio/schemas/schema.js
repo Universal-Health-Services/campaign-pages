@@ -14,6 +14,7 @@ import main from './documents/main'
 import owner from './documents/owner'
 import service from './documents/service'
 import teaser from './documents/teaser'
+import thankyou from './documents/thankyou'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -37,6 +38,7 @@ export default createSchema({
     owner,
     service,
     teaser,
+    thankyou,
     bodyPortableText,
     mainImage,
   ])

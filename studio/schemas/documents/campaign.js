@@ -4,8 +4,8 @@ export default {
     type: 'document',
     fields: [
         {
-            title: 'Owner',
             name: 'owner',
+            title: 'Owner',
             type: 'document',
             description: `The Campaign's parent facility or System.`,
             type: 'reference',
@@ -14,8 +14,8 @@ export default {
             }
         },
         {
-            title: 'Service Line',
             name: 'serviceline',
+            title: 'Service Line',
             type: 'reference',
             to: {
                 type: 'service'
@@ -49,14 +49,14 @@ export default {
             type: 'main'
         },
         {
-            title: 'Teasers',
             name: 'teasers',
+            title: 'Teasers',
             type: 'array',
             of: [{ weak: true, type: 'teaser' }]
         },
         {
-            title: 'Awards',
             name: 'awards',
+            title: 'Awards',
             type: 'array',
             of: [{ weak: true, type: 'award' }]
         },
@@ -67,8 +67,8 @@ export default {
             description: `Google 'Embed a map', <iframe src="=> this string <="></iframe>`
         },
         {
-            title: 'Locations',
             name: 'locations',
+            title: 'Locations',
             type: 'array',
             of: [{
                 weak: true,
@@ -77,6 +77,11 @@ export default {
                     type: 'location'
                 }
             }]
+        },
+        {
+            name: 'thankyou',
+            title: 'Thank You',
+            type: 'thankyou'
         },
     ],
     preview: {

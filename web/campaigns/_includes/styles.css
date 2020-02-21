@@ -175,12 +175,10 @@ header a.phone:hover{
 /*
  * Form Styles
  */
-
 .form-container {
     background-color: rgba(20, 75, 134, 0.85);
     border-radius: 3px;
 }
-
 .form-wrapper {
     padding: 10px;
 }
@@ -194,14 +192,12 @@ header a.phone:hover{
     line-height: 1.25em;
     margin: 0;
 }
-
 .form-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
-
 .form-wrapper p.instructions {
     margin: 20px 0;
     font-size:1rem;
@@ -212,7 +208,6 @@ header a.phone:hover{
     color:#ffff;
     margin: 10px 0;
 }
-
 .form-wrapper a {
     color: #fff;
     text-decoration: none;
@@ -244,12 +239,10 @@ header a.phone:hover{
     text-transform: inherit;
     border-radius: 3px;
 }
-
 label {
     font-size:1rem;
     line-height:1.2rem;
 }
-
 .form-wrapper button[type=submit] {
     width: 100%;
     padding: 8px 16px;
@@ -261,7 +254,6 @@ label {
     text-transform: inherit;
     border-radius: 3px;
 }
-
 .form-wrapper input[type=text]:focus,
 .form-wrapper input[type=email]:focus,
 .form-wrapper input[type=tel]:focus {
@@ -278,14 +270,12 @@ label {
 .form-wrapper input[type=checkbox]:focus {
     border: 1px solid #144b86;
 }
-
 .form-wrapper ._form-content button,
 .form-wrapper button[type=submit] {
     background: #1091cc;
     color: #ffffff;
     border: 1px solid #1091cc;
 }
-
 .form-wrapper ._form-content button:hover,
 .form-wrapper ._form-content button:focus,
 .form-wrapper button[type=submit]:hover,
@@ -318,7 +308,7 @@ margin-left: 20px;
 margin-right: 0;
 } */
 .teaser-col:first-of-type { padding: 0 20px 0 0; }
-.teaser-col { flex: 1 0 auto; padding: 0 10px; }
+.teaser-col { flex: 1 0 auto; justify-content: center; padding: 0 10px; }
 .teaser-col:last-of-type { padding: 0 0 0 20px; }
 
 
@@ -337,8 +327,10 @@ margin-right: 0;
 }
 .teaser-col p {
     padding: 0 20px;
-    margin-top: 0;
-    margin-bottom: auto;
+    margin: 0;
+}
+.teaser-col p:last-of-type {
+    margin-bottom: 10px;
 }
 .teaser-col ul {
     margin-top: auto;
@@ -559,7 +551,11 @@ header a.phone {
  * Custom Colors for Individual Locations and System Pages
  */
  /* DEFAULT */
-h1, h2, h3, h4, h5, h6,
+/*
+Primary: 
+Accent: 
+*/
+h1, h2, h4, h5, h6,
 .hero-container .grid-row [class^=grid-]:first-of-type h1,
 .hero-container .grid-row [class^=grid-]:first-of-type p {
     color: #0d325a;
@@ -574,9 +570,12 @@ footer p { color:#ffffff; }
  * ---------
  * armc 
  */
+ /*
+Primary: #222d65
+Accent: #006E9C
+*/
 body[class*=armc] h1,
 body[class*=armc] h2,
-body[class*=armc] h3,
 body[class*=armc] h4,
 body[class*=armc] h5,
 body[class*=armc] h6,
@@ -590,66 +589,142 @@ body[class*=armc] footer p { color:rgba(255, 255, 255, 0.6); }
  * ---------
  * crmc
  */
+ /*
+Primary: #00447c
+Accent: #966E17
+*/
+
 /* Doctors Hospital of Laredo
  * -----------
  * dhl
  */
+ /*
+Primary: #004f39
+Accent: #507B6C
+*/
+
 /* Fort Duncan Regional Medical Center
  * ---------
  * fdmc
- */ 
+ */
+ /*
+Primary: #004f39
+Accent: #507B6C
+*/
+
 /* George Washington University Hospital, The
  * ---------
  * gwuh
  */
+ /*
+Primary: #004065
+Accent: #007BAF
+*/
+
 /* Lakewood Ranch Medical Center
  * ------------
  * lrmc
- */ 
+ */
+ /*
+Primary: 
+Accent: 
+*/
+
 /* Northern Nevada Medical Center
  * -------------
  * nnmc
  */
-/* Palmdale Regional Medical Center
+ /*
+Primary: #1c355e
+Accent: #00754a
+*/
+
+ /* Palmdale Regional Medical Center
  * -----------
  * prmc
  */
+ /*
+Primary: #014482
+Accent: #998667
+*/
 /* St. Mary's Regional Medical Center
  * -----------
  * stm
  */ 
-/* Temecula Valley Hospital
+ /*
+Primary: #1b3d6e
+Accent: #00918D
+*/
+
+ /* Temecula Valley Hospital
  * ---------
  * tvh
  */
-/* Texoma Medical Center
+ /*
+Primary: #450242
+Accent: #677718
+*/
+
+ /* Texoma Medical Center
  * ---------
  * tmc
  */
+ /*
+Primary: #43003D
+Accent: #720222
+*/
+
 /* Wellington Regional Medical Center
  * -----------
  * wrmc
  */
+ /*
+Primary: #17305a
+Accent: #428840
+*/
 
  /* SYSTEMS */
 /* Manatee Healthcare System
  * ------------
  * mhs
  */
+ /*
+Primary: #00907f
+Accent: #00534a
+*/
+
 /* Northwest Texas Healthcare System
  * ----------
  * nwths
  */
+ /*
+Primary: #19367C
+Accent: #282829
+*/
+
 /* South Texas Health System
  * ---------
  * stxs
  */
+ /*
+Primary: #7c2529
+Accent: #451416
+*/
+
 /* Southwest Healthcare System
  * ------------
  * swhs
  */
+ /*
+Primary: #144984
+Accent: #172c54
+*/
+
 /* Valley Health System, The
  * ----------
  * vhs
  */ 
-
+ /*
+Primary: #002855
+Accent: #004785
+*/
