@@ -174,18 +174,16 @@ header a.phone:hover{
 /*
  * Form Styles
  */
-
 .form-container {
     background-color: rgba(20, 75, 134, 0.85);
     border-radius: 3px;
 }
-
 .form-wrapper {
     padding: 10px;
 }
-/* .form-container form {
-    margin-bottom: 35px;
-}*/
+.form-container form {
+    margin-bottom: 5px;
+}
 #form h3 {
     color:#ffff;
     font-size: 1.5rem;
@@ -193,14 +191,12 @@ header a.phone:hover{
     line-height: 1.25em;
     margin: 0;
 }
-
 .form-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
-
 .form-wrapper p.instructions {
     margin: 20px 0;
     font-size:1rem;
@@ -211,7 +207,6 @@ header a.phone:hover{
     color:#ffff;
     margin: 10px 0;
 }
-
 .form-wrapper a {
     color: #fff;
     text-decoration: none;
@@ -243,12 +238,10 @@ header a.phone:hover{
     text-transform: inherit;
     border-radius: 3px;
 }
-
 label {
     font-size:1rem;
     line-height:1.2rem;
 }
-
 .form-wrapper button[type=submit] {
     width: 100%;
     padding: 8px 16px;
@@ -260,7 +253,6 @@ label {
     text-transform: inherit;
     border-radius: 3px;
 }
-
 .form-wrapper input[type=text]:focus,
 .form-wrapper input[type=email]:focus,
 .form-wrapper input[type=tel]:focus {
@@ -277,14 +269,12 @@ label {
 .form-wrapper input[type=checkbox]:focus {
     border: 1px solid #144b86;
 }
-
 .form-wrapper ._form-content button,
 .form-wrapper button[type=submit] {
     background: #1091cc;
     color: #ffffff;
     border: 1px solid #1091cc;
 }
-
 .form-wrapper ._form-content button:hover,
 .form-wrapper ._form-content button:focus,
 .form-wrapper button[type=submit]:hover,
@@ -332,6 +322,7 @@ margin-right: 0;
 .teaser-col h3 {
     padding: 0 20px;
     margin-bottom: 20px;
+    font-weight:600;
 }
 .teaser-col p {
     padding: 0 20px;
@@ -358,10 +349,11 @@ margin-right: 0;
 .awards-container {
     background-color: #f7f7f7;
     margin: 0;
+    padding:30px;
 }
 .award {
     padding: 0 20px;
-    margin: 0 0 20px;
+    margin: 0 0 30px;
 }
 .award:last-of-type {
     margin-bottom: 0;
@@ -443,8 +435,16 @@ margin-right: 0;
     padding: 0;
     margin: 0 0 20px;
 }
+
+.location-addr h4 {
+    font-weight:600;
+    font-size:22px;
+}
+
 .location-addr p {
     line-height: 1.15;
+    font-weight:400;
+    font-size:20px;
     /* margin-top: 0; */
     /* margin-bottom: 20px; */
 } 
