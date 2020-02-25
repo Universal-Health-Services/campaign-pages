@@ -1,7 +1,8 @@
 # Campaign Landing Page Builder
 Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locations.
 
-note: Georgia - second note
+[Campaign Landing Page - add /<location-code>-<campaign-code> ](https://acutecare-initiatives.com/)
+[Campaign Landing Page - Sanity Studio](https://studio.acutecare-initiatives.com/)
 
 ## Each Campaign :
 ----
