@@ -13,8 +13,7 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "dashboard-widget-netlify",
-    "@sanity/cli"
+    "dashboard-widget-netlify"
   ],
   "env": {
     "development": {
