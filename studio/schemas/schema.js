@@ -12,6 +12,7 @@ import hero from './documents/hero'
 import location from './documents/location'
 import main from './documents/main'
 import owner from './documents/owner'
+import schedule from './documents/schedule'
 import service from './documents/service'
 import teaser from './documents/teaser'
 import thankyou from './documents/thankyou'
@@ -36,6 +37,7 @@ export default createSchema({
     location,
     main,
     owner,
+    schedule,
     service,
     teaser,
     thankyou,

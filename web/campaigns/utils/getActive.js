@@ -17,7 +17,7 @@ function generate(ea) {
 }
 
 async function getActive() {
-  const filter=groq`*[_type == "campaign"]` //&& schedual.startDate < now()
+  const filter=groq`*[_type == "campaign" && schedule.startDate < now()]`
   const projection=groq`{
     _id,
     description,

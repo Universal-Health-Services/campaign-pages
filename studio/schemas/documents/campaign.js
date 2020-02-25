@@ -22,6 +22,11 @@ export default {
             }
         },
         {
+            name: 'schedule',
+            title: 'Schedule',
+            type: 'schedule'
+        },
+        {
             name: 'analytics',
             title: 'Analytics',
             type: 'analytics'
