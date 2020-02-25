@@ -5,7 +5,8 @@
   },
   "api": {
     "projectId": "fas7z7wl",
-    "dataset": "production"
+    "dataset": "production",
+    "basePath": "/dist"
   },
   "plugins": [
     "@sanity/base",
@@ -13,7 +14,8 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "dashboard-widget-netlify"
+    "dashboard-widget-netlify",
+    "@sanity/cli"
   ],
   "env": {
     "development": {
