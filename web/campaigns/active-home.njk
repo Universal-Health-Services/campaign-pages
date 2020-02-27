@@ -12,16 +12,13 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 ---
 <div class="full-width hero-container rm_margins" style="background-image: url({{ page.hero.image.src | url }});">
   <div class="grid-row">
-    <div class="grid-col grid-2-3 hero-copy">
+    <div class="hero-copy">
       <h1>{{ page.hero.title }}</h1>
       {% if page.hero.subtitle %}
       <p>{{ page.hero.subtitle }}</p>
       {% endif %}
-      <div class="button-wrapper">
-        <a class="button" href="#form"><span>Get Started Now</span></a>
-      </div>
+      <a class="button" href="#form"><span>Get Started Now</span></a>
     </div>
-    <div class="grid-1-3"></div>
   </div>
 </div>
 
@@ -86,27 +83,27 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
     {% endfor %}
     </div>
 
-</div>
+  </div>
 
-<div class="full-width awards-container">
-  <div class="container-inner_col awards-wrapper">
-
-  {% for award in page.awards %}
-    <div class="grid-row award awardname">
-      <div class="grid-1-1 awarded-by">
-        {% if award.subtext %}
-        <h4 class="award-text">{{ award.text }}</h4>
-        <p class="award-subtext">{{ award.subtext }}</p>
-        {% else %}
-        <h4 class="award-text_no-subtext">{{ award.text }}</h4>
-        {% endif %}
+  {% if awards[0] != "" %}
+  <div class="full-width awards-container">
+    <div class="container-inner_col awards-wrapper">
+    {% for award in page.awards %}
+      <div class="grid-row award awardname">
+        <div class="grid-1-1 awarded-by">
+          {% if award.subtext %}
+          <h4 class="award-text">{{ award.text }}</h4>
+          <p class="award-subtext">{{ award.subtext }}</p>
+          {% else %}
+          <h4 class="award-text_no-subtext">{{ award.text }}</h4>
+          {% endif %}
+        </div>
       </div>
+    {% endfor %}
     </div>
-   {% endfor %}
- 
   </div>
+  {% endif %}
 
-  </div>
     <div class="full-width cta-band_call">
       <div class="grid-row">
         <h3>Call for an Appointment: <a href="tel:{{ page.tel }}">{{ page.tel }}</a></h3>

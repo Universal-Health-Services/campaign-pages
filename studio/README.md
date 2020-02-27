@@ -117,23 +117,27 @@ Future addition
 ### Q1 – Cardio, locations :
 Location Name, code (is SYSTEM Flag) link
 
-- Aiken Regional Medical Centers, **armc** [www](https://www.aikenregional.com/ "Aiken Regional Medical Centers, website")
-- Corona Regional Medical Center, **crmc** [www](https://www.coronaregional.com/ "Corona Regional Medical Center, website")
-- Doctors Hospital of Laredo, **dhl** [www](https://www.doctorshosplaredo.com/ "Doctors Hospital of Laredo, website")
-- Fort Duncan Regional Medical Center, **fdmc** [www](https://www.fortduncanmedicalcenter.com/ "Fort Duncan Regional Medical Center, website")
+done, may need awards and tracking codes
+1. Aiken Regional Medical Centers, **armc** [www](https://www.aikenregional.com/ "Aiken Regional Medical Centers, website")
+2. Corona Regional Medical Center, **crmc** [www](https://www.coronaregional.com/ "Corona Regional Medical Center, website")
+3. Doctors Hospital of Laredo, **dhl** [www](https://www.doctorshosplaredo.com/ "Doctors Hospital of Laredo, website")
+4. Fort Duncan Regional Medical Center, **fdmc** [www](https://www.fortduncanmedicalcenter.com/ "Fort Duncan Regional Medical Center, website")
+5. Lakewood Ranch Medical Center, **lrmc** [www](https://www.lakewoodranchmedicalcenter.com/ "Lakewood Ranch Medical Center, website")
+6. Manatee Memorial Hospital, **mmh** [www](https://www.manateememorial.com/ "Manatee Memorial Hospital, website")
+7. Northern Nevada Medical Center, **nnmc** [www](https://www.nnmc.com/ "Northern Nevada Medical Center, website")
+8. Texoma Medical Center, **tmc** [www](https://www.texomamedicalcenter.net/ "Texoma Medical Center, website")
+9. Temecula Valley Hospital, **tvh** [www](https://www.temeculavalleyhospital.com/ "Temecula Valley Hospital, website")
+10. Palmdale Regional Medical Center, **prmc** [www](https://www.palmdaleregional.com/ "Palmdale Regional Medical Center, website")
+11. Wellington Regional Medical Center, **wrmc** [www](https://www.wellingtonregional.com/ "Wellington Regional Medical Center, website")
+12. Northwest Texas Healthcare System, **_nwths_** (SYSTEM) [www](https://www.nwths.com/ "Northwest Texas Healthcare System, website")
+13. The Valley Health System, **_vhs_** (SYSTEM) [www](https://www.valleyhealthsystemlv.com/ "The Valley Health System, website")
+Requires Follow Up
+14. South Texas Health System, **_stxs_** (SYSTEM) [www](https://www.southtexashealthsystem.com/ "South Texas Health System, website")
+
+Not Done
 - The George Washington University Hospital, **gwuh** [www](https://www.gwhospital.com/ "The George Washington University Hospital, website")
-- Lakewood Ranch Medical Center, **lrmc** [www](https://www.lakewoodranchmedicalcenter.com/ "Lakewood Ranch Medical Center, website")
-- Manatee Memorial Hospital, **mmh** [www](https://www.manateememorial.com/ "Manatee Memorial Hospital, website")
-- Northern Nevada Medical Center, **nnmc** [www](https://www.nnmc.com/ "Northern Nevada Medical Center, website")
-- Texoma Medical Center, **tmc** [www](https://www.texomamedicalcenter.net/ "Texoma Medical Center, website")
-- Temecula Valley Hospital, **tvh** [www](https://www.temeculavalleyhospital.com/ "Temecula Valley Hospital, website")
-- Palmdale Regional Medical Center, **prmc** [www](https://www.palmdaleregional.com/ "Palmdale Regional Medical Center, website")
-- Wellington Regional Medical Center, **wrmc** [www](https://www.wellingtonregional.com/ "Wellington Regional Medical Center, website")
 ---
 - Manatee Healthcare System, **_mhcs_** (SYSTEM) [www](https://www.manateehealthcaresystem.com/ "Manatee Healthcare System, website")
-- Northwest Texas Healthcare System, **_nwths_** (SYSTEM) [www](https://www.nwths.com/ "Northwest Texas Healthcare System, website")
-- South Texas Health System, **_stxs_** (SYSTEM) [www](https://www.southtexashealthsystem.com/ "South Texas Health System, website")
-- The Valley Health System, **_vhs_** (SYSTEM) [www](https://www.valleyhealthsystemlv.com/ "The Valley Health System, website")
 
 ### Q2 – Campaign, locations :
 - St. Mary's Regional Medical Center, **stm** [www](https://www.stmarysregional.com/ "St. Mary's Regional Medical Center, website")
