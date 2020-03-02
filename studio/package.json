@@ -7,6 +7,7 @@
   "author": "Scudder Stevens <Scudder.Stevens@uhsinc.com>",
   "license": "UNLICENSED",
   "scripts": {
+    "build": "sanity build",
     "start": "sanity start",
     "test": "sanity check"
   },

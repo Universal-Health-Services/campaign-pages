@@ -46,33 +46,6 @@
     
       {{ content | safe }}
 
-      <div class="full-width cta-band_call">
-        <div class="grid-row">
-          <h3>Call for an Appointment: <a href="tel:{{ page.tel }}">{{ page.tel }}</a></h3>
-        </div>
-      </div>
-
-      <div class="container-inner_col">
-        <div class="location-map">
-          <iframe src="{{ page.map }}" allowfullscreen=""></iframe>
-        </div>
-
-        <div class="grid-row locations-container">
-        {% for location in page.locations %}
-            <div class="grid-1-2 location-addr">
-              <h4>{{ location.name }}</h4>
-              <p>{{ location.street }}<br>
-                 {% if location.street2 %}{{ location.street2 }}<br>{% endif %}
-                 {{ location.city }}, {{ location.state }} {{ location.zip }}<br>
-              </p>
-              <p><a href="tel:{{ page.tel }}">{{ page.tel }}</a></p>
-            </div>
-        {% endfor %}
-        </div>
-      </div>
-
-    </div>
-
     <footer class="full-width">
       <div class="container-inner_col">
         <div class="grid-row">
