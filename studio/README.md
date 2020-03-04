@@ -7,7 +7,7 @@ Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locatio
 [Campaign Administration](https://studio.acutecare-initiatives.com/ "Sanity Studio")
 
 ## Each Campaign :
-----
+
 1. Reference [Landing Page](https://https://acutecare-initiatives.com/owner-service_line/)
 
   * Header: campaign owner logo, campaign phone number
@@ -29,7 +29,7 @@ Builds Campaign Landing Pages for Healthcare Sytems and Individual Acute Locatio
   * Footer
 
 ## Built With :
-----
+
 ### Content Dashboard and Storage - [Sanity](https://www.sanity.io), [docs](https://www.sanity.io/docs)
 
 Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
@@ -123,7 +123,7 @@ from [example](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
 #### Geo Points, future addition [documentation](https://www.sanity.io/docs/geopoint-type)
 
 ## Campaigns 2020
-----
+
 ### Q1 – Cardio, locations :
 
    Location Name, code (is SYSTEM Flag) - cardiology, cardio campaign landing page | www, campaign owner website
