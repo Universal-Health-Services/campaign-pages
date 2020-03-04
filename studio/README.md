@@ -115,29 +115,26 @@ Future addition
 ## Campaigns 2020
 ----
 ### Q1 – Cardio, locations :
-Location Name, code (is SYSTEM Flag) link
+Location Name, code (is SYSTEM Flag) cardiology, cardio campaign landing page | www, campaign owner website
+1. Aiken Regional Medical Centers, **armc** [cardiology](https://acutecare-initiatives.com/armc-cardio/) | [www](https://www.aikenregional.com/ "Aiken Regional Medical Centers, website")
+2. Corona Regional Medical Center, **crmc** [cardiology](https://acutecare-initiatives.com/crmc-cardio/) | [www](https://www.coronaregional.com/ "Corona Regional Medical Center, website")
+3. Doctors Hospital of Laredo, **dhl** [cardiology](https://acutecare-initiatives.com/dhl-cardio/) | [www](https://www.doctorshosplaredo.com/ "Doctors Hospital of Laredo, website")
+4. Fort Duncan Regional Medical Center, **fdmc** [cardiology](https://acutecare-initiatives.com/fdmc-cardio/) | [www](https://www.fortduncanmedicalcenter.com/ "Fort Duncan Regional Medical Center, website")
+5. Lakewood Ranch Medical Center, **lrmc** [cardiology](https://acutecare-initiatives.com/lrmc-cardio/) | [www](https://www.lakewoodranchmedicalcenter.com/ "Lakewood Ranch Medical Center, website")
+6. Manatee Memorial Hospital, **mmh** [cardiology](https://acutecare-initiatives.com/mmh-cardio/) | [www](https://www.manateememorial.com/ "Manatee Memorial Hospital, website")
+7. Northern Nevada Medical Center, **nnmc** [cardiology](https://acutecare-initiatives.com/nnmc-cardio/) | [www](https://www.nnmc.com/ "Northern Nevada Medical Center, website")
+8. St. Mary's Regional Medical Center, **stm** [cardiology](https://acutecare-initiatives.com/stm-cardio) | [www](https://www.stmarysregional.com/ "St. Mary's Regional Medical Center, website")
+9. Texoma Medical Center, **tmc** [cardiology](https://acutecare-initiatives.com/tmc-cardio/) | [www](https://www.texomamedicalcenter.net/ "Texoma Medical Center, website")
+10. Temecula Valley Hospital, **tvh** [cardiology](https://acutecare-initiatives.com/tvh-cardio/) | [www](https://www.temeculavalleyhospital.com/ "Temecula Valley Hospital, website")
+11. Palmdale Regional Medical Center, **prmc** [cardiology](https://acutecare-initiatives.com/prmc-cardio/) | [www](https://www.palmdaleregional.com/ "Palmdale Regional Medical Center, website")
+12. Wellington Regional Medical Center, **wrmc** [cardiology](https://acutecare-initiatives.com/wrmc-cardio/) | [www](https://www.wellingtonregional.com/ "Wellington Regional Medical Center, website")
+13. Northwest Texas Healthcare System, **_nwths_** (SYSTEM) [cardiology](https://acutecare-initiatives.com/nwths-cardio/) | [www](https://www.nwths.com/ "Northwest Texas Healthcare System, website")
+14. The Valley Health System, **_vhs_** (SYSTEM) [cardiology](https://acutecare-initiatives.com/vhs-cardio/) | [www](https://www.valleyhealthsystemlv.com/ "The Valley Health System, website")
 
-done, may need awards and tracking codes
-1. Aiken Regional Medical Centers, **armc** [www](https://www.aikenregional.com/ "Aiken Regional Medical Centers, website")
-2. Corona Regional Medical Center, **crmc** [www](https://www.coronaregional.com/ "Corona Regional Medical Center, website")
-3. Doctors Hospital of Laredo, **dhl** [www](https://www.doctorshosplaredo.com/ "Doctors Hospital of Laredo, website")
-4. Fort Duncan Regional Medical Center, **fdmc** [www](https://www.fortduncanmedicalcenter.com/ "Fort Duncan Regional Medical Center, website")
-5. Lakewood Ranch Medical Center, **lrmc** [www](https://www.lakewoodranchmedicalcenter.com/ "Lakewood Ranch Medical Center, website")
-6. Manatee Memorial Hospital, **mmh** [www](https://www.manateememorial.com/ "Manatee Memorial Hospital, website")
-7. Northern Nevada Medical Center, **nnmc** [www](https://www.nnmc.com/ "Northern Nevada Medical Center, website")
-8. Texoma Medical Center, **tmc** [www](https://www.texomamedicalcenter.net/ "Texoma Medical Center, website")
-9. Temecula Valley Hospital, **tvh** [www](https://www.temeculavalleyhospital.com/ "Temecula Valley Hospital, website")
-10. Palmdale Regional Medical Center, **prmc** [www](https://www.palmdaleregional.com/ "Palmdale Regional Medical Center, website")
-11. Wellington Regional Medical Center, **wrmc** [www](https://www.wellingtonregional.com/ "Wellington Regional Medical Center, website")
-12. Northwest Texas Healthcare System, **_nwths_** (SYSTEM) [www](https://www.nwths.com/ "Northwest Texas Healthcare System, website")
-13. The Valley Health System, **_vhs_** (SYSTEM) [www](https://www.valleyhealthsystemlv.com/ "The Valley Health System, website")
-Requires Follow Up
-14. South Texas Health System, **_stxs_** (SYSTEM) [www](https://www.southtexashealthsystem.com/ "South Texas Health System, website")
-
-Not Done
-- The George Washington University Hospital, **gwuh** [www](https://www.gwhospital.com/ "The George Washington University Hospital, website")
----
-- Manatee Healthcare System, **_mhcs_** (SYSTEM) [www](https://www.manateehealthcaresystem.com/ "Manatee Healthcare System, website")
+On Hold
+* South Texas Health System, **_stxs_** (SYSTEM) [www](https://www.southtexashealthsystem.com/ "South Texas Health System, website")
+* The George Washington University Hospital, **gwuh** [www](https://www.gwhospital.com/ "The George Washington University Hospital, website")
+* Manatee Healthcare System, **_mhcs_** (SYSTEM) [www](https://www.manateehealthcaresystem.com/ "Manatee Healthcare System, website")
 
 ### Q2 – Campaign, locations :
 - St. Mary's Regional Medical Center, **stm** [www](https://www.stmarysregional.com/ "St. Mary's Regional Medical Center, website")

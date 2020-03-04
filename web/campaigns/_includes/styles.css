@@ -62,26 +62,27 @@ header [class^="grid-"] {
     align-items: center;
 }
 /* Logo Variations */
-body[class*=armc] .header-logo,
-body[class*=vhs] .header-logo,
+body[class*=armc]  .header-logo,
+body[class*=gwuh]  .header-logo,
+body[class*=lrmc]  .header-logo,
+body[class*=mmhs]  .header-logo,
 body[class*=nwths] .header-logo,
-body[class*=tmc] .header-logo,
-body[class*=tvh] .header-logo,
-body[class*=wrmc] .header-logo,
-body[class*=nnmc] .header-logo,
-body[class*=dhl] .header-logo,
-body[class*=mmhs] .header-logo,
-body[class*=lrmc] .header-logo,
-body[class*=gwuh] .header-logo,
-body[class*=swhs] .header-logo,
-body[class*=crmc] .header-logo,
-body[class*=prmc] .header-logo,
-body[class*=sths] .header-logo {
+body[class*=nnmc]  .header-logo,
+body[class*=swhs]  .header-logo,
+body[class*=sths]  .header-logo,
+body[class*=vhs]   .header-logo,
+body[class*=wrmc]  .header-logo {
     width: 300px;
     height: auto;
 }
-body[class*=mmh] .header-logo,
-body[class*=stm] .header-logo {
+body[class*=crmc] .header-logo,
+body[class*=dhl]  .header-logo,
+body[class*=fdmc] .header-logo,
+body[class*=mmh]  .header-logo,
+body[class*=prmc] .header-logo,
+body[class*=stm]  .header-logo,
+body[class*=tmc]  .header-logo,
+body[class*=tvh]  .header-logo {
     width: auto;
     height: 68px;
 }
