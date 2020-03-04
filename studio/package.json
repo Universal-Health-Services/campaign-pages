@@ -16,10 +16,6 @@
   ],
   "dependencies": {
     "@sanity/base": "^1.149.3",
-<<<<<<< HEAD
-    "@sanity/cli": "^1.149.2",
-=======
->>>>>>> 66916208e76d5690ad3dd7c89ead69dcb0f277de
     "@sanity/components": "^1.149.3",
     "@sanity/core": "^1.149.2",
     "@sanity/default-layout": "^1.149.3",
