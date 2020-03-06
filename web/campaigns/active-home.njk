@@ -24,47 +24,45 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
 <div class="container-inner_col content-container">
 
-    <div class="col-section">
+    <div class="grid-row col-section main-form_wrapper">
 
-    <div class="col">
-    {{ page.main | markdownify | safe }}
-    </div>
+      <div class="grid-1-2 main-container">
+        {{ page.main | markdownify | safe }}
+      </div>
 
-    <!-- formcarry form -->
-
-    <div id="form" class="col form-container">
-          <div class="form-wrapper">
+      <!-- formcarry form -->
+      <div id="form" class="grid-1-2 form-container">
+        <div class="form-wrapper">
           <h3>Get Comprehensive Care at {{ page.owner.name }}</h3>
-            <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:{{ page.tel }}">{{ page.tel }}</a>.
-            <form action="{{ page.analytics.formAction | url }}" method="POST" accept-charset="UTF-8" >
-              <div class="form-row">
-                <input type="text" name="firstName" placeholder="First Name" required /> <input type="text" name="lastName" placeholder="Last Name" required />  
-               </div>
-              <div class="form-row">
-                <input type="tel" name="phone" placeholder="Phone Number" required />
-                <input type="email" name="email" placeholder="Email Address" />
-              </div>
-              <p>
-                <label>
-                  How would you like to be contacted?<br>
-                  <input type="radio" name="followup" value="email" required> Email<br>
-                  <input type="radio" name="followup" value="call" checked> Phone Call<br>
-                </label>
-              </p>
-              <p>
-                <label><input type="checkbox" name="subscribe" value="yes" checked> Please send me updates from <strong>{{ page.owner.name }}</strong></label>
-              </p>
-              <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-              <input type="hidden" name="campaign" value="{{ page.owner.name }} | {{ page.serviceline }}">
-              <input type="hidden" name="source" value="acutecare-initiatives.com/{{ page.oSlug }}-{{ page.sSlug }}/">
-              <p>
-                <button type="submit">Request Appointment</button>
-              </p>
-            </form>
-          </div>
-    </div>
-
-    <!-- END formcarry form -->
+          <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:{{ page.tel }}">{{ page.tel }}</a>.
+          <form action="{{ page.analytics.formAction | url }}" method="POST" accept-charset="UTF-8" >
+            <div class="form-row">
+              <input type="text" name="firstName" placeholder="First Name" required /> <input type="text" name="lastName" placeholder="Last Name" required />  
+            </div>
+            <div class="form-row">
+              <input type="tel" name="phone" placeholder="Phone Number" required />
+              <input type="email" name="email" placeholder="Email Address" />
+            </div>
+            <p>
+              <label>
+                How would you like to be contacted?<br>
+                <input type="radio" name="followup" value="email" required> Email<br>
+                <input type="radio" name="followup" value="call" checked> Phone Call<br>
+              </label>
+            </p>
+            <p>
+              <label><input type="checkbox" name="subscribe" value="yes" checked> Please send me updates from <strong>{{ page.owner.name }}</strong></label>
+            </p>
+            <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
+            <input type="hidden" name="campaign" value="{{ page.owner.name }} | {{ page.serviceline }}">
+            <input type="hidden" name="source" value="acutecare-initiatives.com/{{ page.oSlug }}-{{ page.sSlug }}/">
+            <p>
+              <button type="submit">Request Appointment</button>
+            </p>
+          </form>
+        </div>
+      </div>
+      <!-- END formcarry form -->
 
     </div>
 
