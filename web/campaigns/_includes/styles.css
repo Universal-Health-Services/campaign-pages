@@ -522,9 +522,10 @@ footer p.copyright {
         width: 100%;
         text-align: center;
     }
-    .hero-container { padding: 75px 0 25px; }
+    .hero-container { padding: 0; }
     .hero-container .grid-row .hero-copy {
-        background-color: rgba(255, 255, 255, 0.8);
+        padding: 75px 0 25px;
+        background-color: rgba(255, 255, 255, 0.7);
         width: 100%;
     }
     .main-form_wrapper {
@@ -611,22 +612,37 @@ footer p.copyright {
     .hero-container {
         padding: 0;
         background-position: right middle;
+        background-image: none !important;
+        background-color: rgba(20,75,134,.85);
     }
-    .hero-container .grid-row [class^="grid-"]:first-of-type h1 {
-        width: auto;
-    }
+    .hero-container .grid-row [class^="grid-"]:first-of-type h1,
     .hero-container .grid-row [class^="grid-"]:first-of-type p {
         width: auto;
     }
-    .hero-copy {
+    .hero-container .grid-row .hero-copy {
         width: 100%;
-        padding: 0 16px;
+        padding: 8% 2% 2%;
+        background-color: rgba(255,255,255,0);
+    }
+    #form h3 { display: none;}
+    .hero-container .grid-row .hero-copy:first-of-type h1,
+    .hero-container .grid-row .hero-copy:first-of-type p {
+        color: white;
+    }
+    .hero-container a.button {
+        display: none;
     }
     .content-container {
-        padding-top: 20px;
+        padding-top: 0px;
+    }
+    .main-form_wrapper {
+        flex-direction: column-reverse;
     }
     #form h3 {
         font-size: 1.2rem;
+    }
+    .form-wrapper .instructions {
+        text-align: center;
     }
     .form-wrapper .form-row {
         flex-direction: column;
