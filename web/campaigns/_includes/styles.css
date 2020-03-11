@@ -610,10 +610,11 @@ footer p.copyright {
 /* XS - Vertical Orientation Small Mobile */
 @media only screen and (max-width: 575px) {
     .hero-container {
-        padding: 0;
+        display: none;
+        /* padding: 0;
         background-position: right middle;
         background-image: none !important;
-        background-color: rgba(20,75,134,.85);
+        background-color: rgba(20,75,134,.85); */
     }
     .hero-container .grid-row [class^="grid-"]:first-of-type h1,
     .hero-container .grid-row [class^="grid-"]:first-of-type p {
@@ -624,7 +625,7 @@ footer p.copyright {
         padding: 8% 2% 2%;
         background-color: rgba(255,255,255,0);
     }
-    #form h3 { display: none;}
+    /* #form h3 { display: none;} */
     .hero-container .grid-row .hero-copy:first-of-type h1,
     .hero-container .grid-row .hero-copy:first-of-type p {
         color: white;
@@ -641,16 +642,16 @@ footer p.copyright {
     #form h3 {
         font-size: 1.2rem;
     }
-    .form-wrapper .instructions {
+    /* .form-wrapper .instructions {
         text-align: center;
-    }
+    }*/
     .form-wrapper .form-row {
         flex-direction: column;
     }
     .form-wrapper input[type=text],
     .form-wrapper input[type=email],
     .form-wrapper input[type=tel] {
-        width: calc(100% - 50px);
+        width: calc(100% - 16px);
     }
     .form-wrapper p {
         line-height: 1.2rem;
