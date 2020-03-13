@@ -197,7 +197,7 @@ header a.phone:hover{
     margin-bottom: 5px;
 }
 #form h3 {
-    color:#ffff;
+    color:#ffffff;
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 1.25em;
@@ -401,13 +401,13 @@ label {
 }
 .cta-band_call .grid-row h3 {
     font-size: 36px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     line-height: 34px;
     margin: 20px 0;
 }
 .cta-band_call a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
 }
