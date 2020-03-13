@@ -216,11 +216,11 @@ header a.phone:hover{
 }
 .form-wrapper p,
 .form-wrapper label:not(.form-grp-hdr) {
-    color:#ffff;
+    color:#ffffff;
     margin: 10px 0;
 }
 .form-wrapper a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 .form-wrapper a:hover {
@@ -234,7 +234,7 @@ header a.phone:hover{
     display: block;
     font-size: 1.5rem;
     line-height: 2.5rem;
-    color: #ffff;
+    color: #ffffff;
     margin-bottom: 15px;
 } 
 .form-wrapper input[type=text],
@@ -688,7 +688,8 @@ footer p.copyright {
     .award {
         padding: 0;
     }
-    .awarded-by h4.award-text {
+    .awarded-by h4.award-text,
+    .awarded-by h4.award-text_no-subtext {
         font-size: 1.7rem;
         line-height: 2rem;
     }
