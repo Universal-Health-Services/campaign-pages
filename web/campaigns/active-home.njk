@@ -28,7 +28,6 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
       <div class="grid-1-2 main-container">
         {{ page.main | markdownify | safe }}
-        <p>If you think you’re having a heart attack,</br> <strong>call 9-1-1 immediately</strong>.</p>
       </div>
 
       <!-- formcarry form -->
@@ -84,7 +83,7 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
 
   </div>
 
-  {% if awards[0] != "" %}
+  {% if page.awards != "" %}
   <div class="full-width awards-container">
     <div class="container-inner_col awards-wrapper">
     {% for award in page.awards %}
