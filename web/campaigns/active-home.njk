@@ -33,8 +33,8 @@ permalink: "{{ page.oSlug }}-{{ page.sSlug }}/index.html"
       <!-- formcarry form -->
       <div id="form" class="grid-1-2 form-container">
         <div class="form-wrapper">
-          <h3>Get Comprehensive Care at {{ page.owner.name }}</h3>
-          <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day, or call <a href="tel:{{ page.tel }}">{{ page.tel }}</a>.
+          <h3>Get Comprehensive {{ page.serviceTagline }} Care at {{ page.owner.name }}</h3>
+          <p class="instructions">To learn more, fill out the form below and we’ll respond within one business day.
           <form action="{{ page.analytics.formAction | url }}" method="POST" accept-charset="UTF-8" >
             <div class="form-row">
               <input type="text" name="firstName" placeholder="First Name" required /> <input type="text" name="lastName" placeholder="Last Name" required />  

@@ -13,6 +13,11 @@ export default {
             name: 'code',
             type: 'slug',
             description: `initals or short form name`
+        },
+        {
+            title: 'Tag Line',
+            name: 'tagline',
+            type: 'string',
         }
     ]
 }
