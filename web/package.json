@@ -12,10 +12,10 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@sanity/block-content-to-markdown": "0.0.5",
-    "@sanity/client": "^1.149.16",
+    "@sanity/client": "^1.150.7",
     "dotenv": "^8.2.0",
     "groq": "^0.140.0",
-    "luxon": "^1.13.2",
+    "luxon": "^1.25.0",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.0.2"
   },

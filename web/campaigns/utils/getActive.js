@@ -56,6 +56,7 @@ async function getActive() {
       }
     },
     "serviceline": serviceline->name,
+    "serviceTagline": serviceline->tagline,
     thankyou
   }`
   const order=`| order(schedual.startDate asc)`
