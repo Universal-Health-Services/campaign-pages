@@ -48,7 +48,7 @@ from within the `studio` directory:
 
 **preview**, local development [website](http://localhost:3333 "development Sanity Studio")
 
-### Static Site Genreator - [11ty 'Eleventy'](https://www.11ty.dev/), [docs](https://www.11ty.io/docs/)
+### Static Site Generator - [11ty 'Eleventy'](https://www.11ty.dev/), [docs](https://www.11ty.dev/docs/)
 
 Eleventy is a simpler static site generator.
 
@@ -62,7 +62,7 @@ from within the `web` directory:
 
 **compile & Serve**, $`npx @11ty/eleventy --serve`
 
-**preview**, local development [website](http://localhost:8080 "development website")
+**preview**, local development [website](http://localhost:8080/armc-cardio "development website")
 
 ### HIPPA Complient Form Processing - [Formcarry](https://formcarry.com), [docs](https://www.formcarry.com/documentation/getting-started)
 
